@@ -68,7 +68,7 @@ num++;
 
 //###################################
 
-// const testVariable = false;
+// const testVariable = true;
 
 // if (!testVariable) {
 //   console.log("Неверно");
@@ -88,9 +88,7 @@ num++;
 
 // if (sumBuy >= 500 && sumBuy < 800) {
 //   alert(sumBuy - (sumBuy * 0.03));
-// }
-
-// if (sumBuy >= 800) {
+// } else if (sumBuy >= 800) {
 //   alert(sumBuy - (sumBuy * 0.05));
 // }
 
