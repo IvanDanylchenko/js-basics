@@ -1,5 +1,5 @@
 //Таски на переменные:
-console.group("Задача 1-3")
+console.group("Задача 1-3");
 const a = 1;
 const b = 2;
 console.log("a * b =", a * b);
@@ -11,9 +11,9 @@ console.log("c / d =", c / d);
 const e = 1;
 const f = 2;
 console.log("e + f =", e + f);
-console.groupEnd("Задача 1-3")
+console.groupEnd("Задача 1-3");
 
-console.group("Задача 4")
+console.group("Задача 4");
 const variable1 = 11;
 const variable2 = true;
 const variable3 = "java script";
@@ -23,7 +23,7 @@ console.log(typeof variable1);
 console.log(typeof variable2);
 console.log(typeof variable3);
 console.log(typeof variable4);
-console.groupEnd("Задача 4")
+console.groupEnd("Задача 4");
 
 let num = 1;
 num += 11;
@@ -82,14 +82,14 @@ num++;
 
 //##################################
 
-// const sumBuy = Number(prompt("Введите сумму покупки:"))
+const sumBuy = Number(prompt("Введите сумму покупки:"));
 
-if (sumBuy >= 500 && sumBuy < 800) {
-  alert(sumBuy - (sumBuy * 0.03));
-} else if (sumBuy >= 800) {
-  alert(sumBuy - (sumBuy * 0.05));
+if (sumBuy > 500 && sumBuy <= 800) {
+  alert(sumBuy - sumBuy * 0.03 + "грн");
+} else if (sumBuy > 800) {
+  alert(sumBuy - sumBuy * 0.05 + "грн");
 } else if (sumBuy < 500) {
-  alert(sumBuy)
+  alert(sumBuy + "грн");
 }
 
 //Таски на циклы:
