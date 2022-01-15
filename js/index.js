@@ -1,5 +1,5 @@
 //Таски на переменные:
-
+console.group("Задача 1-3")
 const a = 1;
 const b = 2;
 console.log("a * b =", a * b);
@@ -11,9 +11,9 @@ console.log("c / d =", c / d);
 const e = 1;
 const f = 2;
 console.log("e + f =", e + f);
+console.groupEnd("Задача 1-3")
 
-//###################################
-
+console.group("Задача 4")
 const variable1 = 11;
 const variable2 = true;
 const variable3 = "java script";
@@ -23,8 +23,7 @@ console.log(typeof variable1);
 console.log(typeof variable2);
 console.log(typeof variable3);
 console.log(typeof variable4);
-
-//###################################
+console.groupEnd("Задача 4")
 
 let num = 1;
 num += 11;
@@ -67,7 +66,6 @@ num++;
 // }
 
 //###################################
-
 // const testVariable = true;
 
 // if (!testVariable) {
@@ -82,15 +80,17 @@ num++;
 //   console.log("Неверно");
 // }
 
-//###################################
+//##################################
 
 // const sumBuy = Number(prompt("Введите сумму покупки:"))
 
-// if (sumBuy >= 500 && sumBuy < 800) {
-//   alert(sumBuy - (sumBuy * 0.03));
-// } else if (sumBuy >= 800) {
-//   alert(sumBuy - (sumBuy * 0.05));
-// }
+if (sumBuy >= 500 && sumBuy < 800) {
+  alert(sumBuy - (sumBuy * 0.03));
+} else if (sumBuy >= 800) {
+  alert(sumBuy - (sumBuy * 0.05));
+} else if (sumBuy < 500) {
+  alert(sumBuy)
+}
 
 //Таски на циклы:
 
@@ -108,7 +108,7 @@ num++;
 //   console.log(i);
 // }
 
-//###################################
+//##################################
 
 // let number = 10;
 // const numberMax = 50;
@@ -128,22 +128,22 @@ num++;
 //   }
 // }
 
-//###################################
+//##################################
 
 // let i = 1;
-// let j = 0;
+// let sum = 0;
 
 // while (i <= 100) {
-//   j = j + i;
+//   sum = sum + i;
 //   i++;
 // }
-// console.log(j);
+// console.log(sum);
 
-// let j = 0;
+// let sum = 0;
 // for (let i = 1; i <= 100; i++){
-//   j = j + i;
+//   sum = sum + i;
 // }
-// console.log(j);
+// console.log(sum);
 
 //Таски на switch..case.
 
@@ -184,10 +184,10 @@ num++;
 //   case day >= 1 && day <= 10:
 //     console.log("First decade");
 //     break;
-//   case day >=11 && day <= 15:
+//   case day >=11 && day <= 20:
 //     console.log("Second decade");
 //     break;
-//   case day >=16 && day <= 31:
+//   case day >=21 && day <= 31:
 //     console.log("Second decade");
 //     break;
 //   default:
