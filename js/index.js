@@ -88,8 +88,6 @@ if (sumBuy > 500 && sumBuy <= 800) {
   alert(sumBuy - sumBuy * 0.03 + "грн");
 } else if (sumBuy > 800) {
   alert(sumBuy - sumBuy * 0.05 + "грн");
-} else if (sumBuy < 500) {
-  alert(sumBuy + "грн");
 }
 
 //Таски на циклы:
